@@ -1,0 +1,62 @@
+html {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #348899;
+}
+body {
+	width: 900px;
+	margin: 0 auto;
+	align-content: center;
+	background-color: #962D3E;
+	padding: 10px 20px 10px 20px; /*top, right, bottom, left. it goes clockwise*/
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	color: #343642;
+	text-shadow: -5px 5px 10px Black;/* horizontal offset, vertical offest, blur rad, color */
+}
+
+p {
+	color: #343642;
+	font-size: 15px;
+}
+
+#inlinea {
+	color: #F2EBC7;
+}
+
+
+li {
+	font-size: 10px;
+	color: #348899;
+}
+
+#chickenme {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	background-color: blue;
+}
+
+#partymode {
+	display: none;
+	color: #962D3E;
+	font-size: 25px;
+	margin: -120px 0 106px 0;
+	text-align: center;
+}
+
+.navitem {
+	display: block;
+	width: 33%;
+}
+
+.main-nav {
+	display: block;
+	text-decoration: none;
+	color: #348899;
+}
