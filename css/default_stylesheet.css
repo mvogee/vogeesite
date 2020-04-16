@@ -30,7 +30,8 @@ p {
 }
 
 li {
-	font-size: 10px;
+	background: #962D3E;
+	font-size: 20px;
 	color: #348899;
 }
 
@@ -50,6 +51,7 @@ li {
 }
 
 .navitem {
+	
 	display: block;
 	width: 33%;
 }
