@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>brainchild media</title>
+  </head>
+  <body>
+    <header>
+      <h1>Media testing page</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Go back Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>
+        This is the page where I am testing images, video, and audio. Its just
+        a practice page so not much to see here
+      </p>
+      <article id="images">
+        <h2>Images</h2>
+        <img src="../../img/chickenme.jpg" title="me holding a chicken boquet" alt="a lovely photo of myself holding a chicken boquet"
+        width="700px" height="auto">
+        <figure>
+          <img src="../../img/chickenme2.jpg" alt="a lovely photo of myself holding a chicken boquet"
+          width="700px" height="auto">
+          <figcaption>Me holding a chicken boquet</figcaption>
+        </figure>
+        <p>
+          Both the above photos are relative path links. That means that they
+          refference the image <em>relative</em> to where the page is located in
+          the file structure. This means if I were to move this page to a differnt
+          folder I would have to updated the src link.
+        </p>
+        <p>
+          These also have some other differences. The first image has a title attribute
+          which allows you to hover your mouse over it and get a little message box
+          that describes what the image is. the second has a <code>figure</code> tag applied to it
+          and a <code>figcaption</code> that allows you to group a caption with the image.
+          the <code>figure</code> and <code>figcaption</code> can be used on anything though.
+          not only images.
+        </p>
+        <p>Both images have their width set to 700px</p>
+
+        <figure>
+          <img src="https://d2rormqr1qwzpz.cloudfront.net/photos/2013/01/02/43548-forbidden_planet.jpg"
+          title="public domain image. yes its taken from another site so don't post this bublicly"
+          alt="painting of an alein plannet with robot on the surface" width="700px" height="auto">
+          <figcaption>forbidden planet</figcaption>
+        </figure>
+        <p>
+          This image is an absolute link. This means that it is linked from the root folder
+          or in this case its absolute web address. In this case if i were to move this page
+          into a different folder the link would still work. However it is best to use relative links
+          whenever possible becasue they take less time to load.
+        </p>
+      </article>
+      <!-- end of the Image section. Beginning of the Video Section -->
+      <article id="video">
+        <h2>Video</h2>
+        <figure>
+          <video autoplay controls muted loop preload="none" poster="../../img/chickenme.jpg" width="700px"> <!-- autoplay, controls, muted, loop, and buffer are all optional tags for the video -->
+            <source src="../../img/IMG_1125.TRIM.mov" type="video/mp4"> <!-- this tag allows you to include multiple versions of the video source it is highly reccomended-->
+            If the browser doesn't support video you can use this space for an alternate text or
+            option for the user.
+            "Your browser sucks!! Get one that supports video dummy!"
+          </video>
+          <figcaption>video of me running. I took this so I could look at my form</figcaption>
+        </figure>
+      </article>
+    </main>
+  </body>
+</html>
