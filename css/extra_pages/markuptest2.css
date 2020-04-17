@@ -35,7 +35,7 @@ header {
 
 li {
   list-style: none;
-  float: right;
+  float: left;
   text-align: center;
   border: 5px;
   width: 20%;
@@ -45,12 +45,14 @@ li {
 main {
   float: left;
   width: 75%;
+  background-color: #3A7D7C;
 }
 
 article {
   float: right;
   width: 25%;
   margin-bottom: 50px;
+  background-color: #3A7D7C;
 }
 
 .squarepics {

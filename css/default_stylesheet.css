@@ -1,13 +1,14 @@
 html {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	font-size: 12px;
-	background-color: #348899;
+	background-color: #244673;
 }
+
 body {
-	width: 900px;
+	width: 75%;
 	margin: 0 auto;
 	align-content: center;
-	background-color: #962D3E;
+	background-color: #F2D7B6;
 	padding: 10px 20px 10px 20px; /*top, right, bottom, left. it goes clockwise*/
 }
 
@@ -26,11 +27,11 @@ p {
 }
 
 #inlinea {
-	color: #F2EBC7;
+	color: #446EA6;
 }
 
 li {
-	background: #962D3E;
+	background: #244673;
 	font-size: 20px;
 	color: #348899;
 }
@@ -38,7 +39,7 @@ li {
 #chickenme {
 	display: block;
 	margin: 0 auto;
-	width: 400px;
+	width: 50%;
 	background-color: blue;
 }
 
@@ -51,13 +52,24 @@ li {
 }
 
 .navitem {
-	
-	display: block;
-	width: 33%;
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	width: auto;
+	margin: 20px 5px 20px 5px;
+	padding: 10px 20px 10px 20px;
+	background-color: #244673;
 }
 
 .main-nav {
+	align-content: center;
+	width: 100%;
 	display: block;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.nava {
 	text-decoration: none;
-	color: #348899;
+	color: #F2D7B6;
 }
