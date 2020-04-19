@@ -84,6 +84,23 @@
           <figcaption>This is a little beat I made while I was working on graal.</figcaption>
         </figure>
       </article>
+      <article id="vector-graphics">
+        <h2>Vector Graphics</h2>
+        <p>There are multiple ways to include vector graphics including using an img tag
+        to include the svg file but you can also copy the code directly from the svg hand
+        embed it into your html. this is usefull as it allows you to minipulate the svg using
+        css and javascript however it makes your html file a lot larger so it is not
+        the best idea to use it everywehre. Below is an example.</p>
+        <svg width="100%" height="300px">
+          <rect width="75%" height="100%" fill="#244673"/>
+          <circle cx="45%" cy="45%" r="100" fill="#348899"/>
+          <polygon points="400,0 85,100 75,200" fill="#348899"/>
+          <text x="50" y="100" font-family="Verdana" font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+          Hello World!
+          </text>
+        </svg>
+      </article>
     </main>
   </body>
 </html>
