@@ -4,8 +4,21 @@
     <meta charset="utf-8">
     <title>Mozilla test</title>
     <style>
+      html {
+        max-width: 900px;
+      }
       #video {
-        background-color: #f0f0f0;
+        margin: 0:
+        background-color: #A6A6A6;
+      }
+
+      .further-media {
+        margin: 0;
+        background-color: #B82B3A;
+      }
+
+      .red-panda {
+        margin: 0;
       }
     </style>
   </head>
@@ -13,9 +26,10 @@
     <header>
       <h1>Mozilla</h1>
       <a href="../index.html"><img src="../../img/firefox_logo-only_120.png" alt="firefox logo"></a>
+      <h3>This page looks like crap. please excuse the lack of styling</h3>
     </header>
     <article id="video">
-      <iframe width="400"
+      <iframe width="400" height="270"
       src="https://www.youtube.com/embed/ojcNcvb1olg"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -33,6 +47,36 @@
           stuff Mozilla does. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">Red panda picture</a>
           by Mathias Appel.
         </p>
+        <div class="further-media">
+          <a href="#">
+            <picture class="media-img">
+              <source media="(max-width: 500px)" srcset="../../img/firefox_logo-only_120.png">
+              <img src="../../img/firefox_logo-only_400.png" alt="firefox logo">
+            </picture>
+          </a>
+          <a href="#">
+            <picture class="media-img">
+              <source media="(max-width: 500px)" srcset="../../img/mozilla-dinosaur-head-120.png">
+              <img src="../../img/mozilla-dinosaur-head-400.png" alt="mozilla dinosaur head">
+            </picture>
+          </a>
+          <a href="#">
+            <img src="../../img/mdn.svg" width="30%" alt="mdn">
+          </a>
+          <a href="#">
+            <picture class="media-img">
+              <source media="(max-width: 500px)" srcset="../../img/firefox-addons-120.jpeg">
+              <source media="(min-width: 501px)" srcset="../../img/firefox-addons-400.jpg">
+              <img src="../../img/firefox-addons-400.jpg" alt="firefox addons">
+            </picture>
+          </a>
+        </div>
     </article>
+    <div class="red-panda">
+      <picture>
+        <source media="(max-width: 500px)" srcset="../../img/red-panda-crop.png">
+        <img src="../../img/red-panda.jpg" alt="photo of a red panda">
+      </picture>
+    </div>
   </body>
 </html>
