@@ -5,6 +5,11 @@ html {
 table {
   border: 2px solid, rgb(200,200,200);
 }
+tfoot {
+  font-weight: bold;
+  text-align: center;
+  background-color: #f0f0f0;
+}
 
 td, th {
   border: 1px solid rgb(190,190,190);
