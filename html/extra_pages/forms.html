@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forms learnig</title>
+    <link rel="stylesheet" href="../../css/default_stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Forms</h1>
+      <a href="../index.html">Home</a>
+    </header>
+    <!-- The action attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
+        The method attribute defines which HTTP method to send the data with (usually get or post). -->
+    <form class="info-form" action="form_handling_page" method="post">
+      <ul>
+        <label for="name">Name:</label>
+        <li><input type="text" id="name" name="user_name"></li>
+
+        <label for="mail">Email:</label>
+        <li><input type="email" id="mail" name="user_email"></li>
+
+        <label for="phone">Phone:</label>
+        <li><input type="tel" id="phone" name="user_phone"></li>
+
+        <label for="msg">Message:</label>
+        <li><textarea id="msg" name="user_msg"></textarea></li>
+      </ul>
+
+    </form>
+
+  </body>
+</html>
