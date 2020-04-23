@@ -3,7 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>forms learnig</title>
-    <link rel="stylesheet" href="../../css/default_stylesheet.css">
+    <style media="screen">
+      body {
+        background-color: #F2A679;
+      }
+      header {
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      form {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 2px solid #244673;
+        border-radius: 1em;
+        background-color: #446EA6;
+      }
+
+      label {
+        color: #F2D7B6;
+        font-family: sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom: 10px;
+      }
+
+      input,
+      textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, textareas have a monospace font */
+        font: 1em sans-serif;
+
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
+
+      input:focus,
+      textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+      }
+
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+
+        /* Provide space to type some text */
+        height: 5em;
+      }
+
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px; /* same size as the label elements */
+      }
+
+      button {
+        /* This extra margin represent roughly the same space as the space
+           between the labels and their text fields */
+        margin-left: .5em;
+}
+    </style>
   </head>
   <body>
     <header>
@@ -15,19 +85,24 @@
     <form class="info-form" action="form_handling_page" method="post">
       <ul>
         <label for="name">Name:</label>
-        <li><input type="text" id="name" name="user_name"></li>
+        <li><input type="text" id="name" name="user_name" placeholder="Joe Shmoe"></li>
 
         <label for="mail">Email:</label>
-        <li><input type="email" id="mail" name="user_email"></li>
+        <li><input type="email" id="mail" name="user_email" placeholder="JoeShmoe@email.com"></li>
 
         <label for="phone">Phone:</label>
-        <li><input type="tel" id="phone" name="user_phone"></li>
+        <li><input type="tel" id="phone" name="user_phone" placeholder="111-222-3333"></li>
 
         <label for="msg">Message:</label>
         <li><textarea id="msg" name="user_msg"></textarea></li>
+
+        <!-- button types can be either (button, submit, or reset) -->
+        <li class="button"><button type="submit">Submit</button></li> <!-- when you click this button it sends the form data to the page specified by the Form Action attribute -->
+        <li class="button"><button type="reset">reset</button></li>
       </ul>
 
     </form>
-
+    <p>each feild has its own type. each feild has a label which has a for tag that associates the label with an input element
+    </p>
   </body>
 </html>
