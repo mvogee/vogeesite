@@ -1,0 +1,38 @@
+
+li.navitm {
+  color: #244673;
+}
+
+.mainstuff {
+  color: #D98484;
+}
+
+li.mainstuff {
+  color: #446EA6;
+}
+
+h2.mainstuff {
+  color: #244673;
+}
+
+em {
+  font-weight: bold;
+  color: #F2A679;
+}
+
+p em {
+  font-style: normal;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #244673;
+}
+
+.art_1 .art_1_p .a_in_p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h2 + p {
+  font-family: sans-serif;
+  color: #F2A679;
+}

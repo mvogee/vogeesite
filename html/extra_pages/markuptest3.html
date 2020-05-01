@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../css/extra_pages/markuptest3.css">
+    <title>Markup Test 3</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header_h1">This is the header</h1>
+      <a href="../index.html">home</a>
+    </header>
+    <nav>
+      <ul>
+        <li class="navitm">nav item 1</li>
+        <li class="navitm">nav item 2</li>
+        <li class="navitm">nav item 3</li>
+        <li class="navitm">nav item 4</li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="mainstuff">This is the main content</h2>
+      <p class="mainstuff">This is the first paragraph in the stuff</p>
+      <ul>
+        <li class="mainstuff">list item 1</li>
+        <li class="mainstuff">list item 2</li>
+        <li class="mainstuff">list item 3</li>
+      </ul>
+      <p>Here we are going to use a <em>descendant combinator</em> to select
+        only the em element within this paragraph tag
+      </p>
+      <li>because there is also an <em>em</em> tag here that we don't want styled</li>
+      <h2>Here is a adjacent sibling combinator example.</h2>
+      <p class="a_in_p">to achive this you simply use a + sign. h2 + p will style all p elements
+        that come direrectly after an h2 tag
+      </p>
+      <article class="art_1">
+        <p class="art_1_p">You can also use <a class="a_in_p">descendant combinators</a> with classes</p>
+      </article>
+    </main>
+  </body>
+</html>
