@@ -1,3 +1,10 @@
+/* @media is a media query. it allows you to set styles based off of certain meidia criteria */
+@media (max-width: 700px) {
+  body {
+    background-color: black;
+  }
+
+}
 
 li.navitm {
   color: #244673;
@@ -35,4 +42,15 @@ p em {
 h2 + p {
   font-family: sans-serif;
   color: #F2A679;
+}
+
+p {
+  color: #244673;
+}
+.p_class {
+  color: #D98484;
+}
+
+#specificity_test {
+  color: #F2D7B6;
 }

@@ -36,11 +36,14 @@ li {
 	color: #348899;
 }
 
+
+
 #chickenme {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
 	background-color: blue;
+	cursor: pointer;
 }
 
 #partymode {
@@ -61,9 +64,15 @@ li {
 	background-color: #244673;
 }
 
+ul:first-child {
+	margin-left: 60px;
+}
+
+ul:last-child {
+	margin-left: 60px;
+}
 .main-nav {
 	align-content: center;
-	width: 100%;
 	display: block;
 	background-color: black;
 	margin: 0 auto;
