@@ -54,3 +54,7 @@ p {
 #specificity_test {
   color: #F2D7B6;
 }
+
+.important_test {
+  color: red !important;
+}
