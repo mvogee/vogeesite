@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="../css/stylesheet.css">
   <title>CPA</title>
 </head>
+
 <body>
   <header class="main_header">
     <h1 class="mian_header_title">Your Company CPA</h1>
@@ -20,7 +22,54 @@
     </nav>
   </header>
   <main>
-    
+    <!-- this is where the important data and insights will be shown.
+      Weighted employee costs
+      How much to charge per employee
+      Total overhead expenses
+      most profitable employee
+      Any fun data projects that you'd like to throw together can be placed here. :)
+      -->
+      <section class="employee_weight data viewing">
+        <h2>Employee weighted costs</h2>
+        <!-- this table needs to auto populate based on employee list -->
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Wieghted Cost</th>
+            <th>Wage</th>
+            <th>Charge Rete</th>
+          </thead>
+          <tr>
+            <td>Your Name</td>
+            <td>$xxxx.xx</td>
+            <td>$xx.xx</td>
+            <td>$xx.xx</td>
+          </tr>
+          <tr>
+            <td colspan="2">Avarage weight</td>
+            <td colspan="2">$xxx.xx</td>
+          </tr>
+        </table>
+      </section>
+      <section class="overhead data viewing">
+        <h2>Overhead summary</h2>
+        <ul>
+          <li>Total overhead costs: <span class="display_data">$xxxxxx.xx</span></li>
+          <li>Cost per employee: <span class="display_data">$xxx.xx</span></li>
+        </ul>
+      </section>
+      <section class="vehicles data viewing">
+        <h2>Vehicles</h2>
+        <ul>
+          <li>total vehicles: <span class="display_data">x</span></li>
+          <li>anual vehicles cost: <span class="display_data">$xxx.xx</span></li>
+        </ul>
+      </section>
+      <section class="insights data viewing">
+        <!-- this section is for displaying fun data insights -->
+        <h2>Insights</h2>
+      </section>
   </main>
 </body>
+
 </html>
