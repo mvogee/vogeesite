@@ -58,3 +58,23 @@ p {
 .important_test {
   color: red !important;
 }
+
+/* this matches any li with a class that starts with the string "a" */
+li[class^="a"] {
+  color: red;
+}
+
+/* this matches any li with a class that ends with the string "b" */
+li[class$="b"] {
+  color: red;
+}
+
+/* this matches any li with a class that contains the string "c" */
+li[class*="c"] {
+  background-color: blue;
+}
+
+/* this will apply to any element that has an id that contains the string "test" in it */
+[id*="test"]{
+  background-color: blue;
+}
